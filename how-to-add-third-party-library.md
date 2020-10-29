@@ -71,8 +71,9 @@ devtool finish capnp meta-openpilot -f
 ```
 bitbake capnp
 ```
+Now, the `capnp` package can be added in the `.bb` file of the target image in the target layer (meta-openpilot): `IMAGE_INSTALL += "capnp"`.
 
-Finally you can build the image
+Finally the image can be built:
 
 ```
 bitbake <image-name>
