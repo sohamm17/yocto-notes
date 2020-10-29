@@ -8,7 +8,8 @@ I want to install capnproto in my yocto image. The `meta-oe` layer already provi
 for our `capnproto` package. I name it `capnp`. I will install the package using `devtool` and by modifying the recipe in a `bb` file.
 
 I got help from the following links:
-https://stackoverflow.com/a/52062599/9605189
+1. https://stackoverflow.com/a/52062599/9605189
+2. https://www.wolfssl.com/docs/yocto-openembedded-recipe-guide/
 
 ### How to add an online directory to bitbake (`tar` or `tar.gz`)
 
